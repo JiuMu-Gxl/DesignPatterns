@@ -10,6 +10,8 @@ namespace SingletonPattern.SingleGeneric
     {
         private int _count = 0;
 
+        private SingleClass1() { }
+
         public int InstenceCount()
         {
             return ++_count;
