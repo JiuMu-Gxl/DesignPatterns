@@ -10,6 +10,7 @@ namespace BuilderPattern.Model
     /// 指挥者（销售）
     /// 由销售接受对应订单并给到用户订单对应产品即可
     /// 产品的构建和功能由创建者实现
+    /// 关注产出，不关心细节
     /// </summary>
     public class Director
     {
