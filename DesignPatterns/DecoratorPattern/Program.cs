@@ -4,9 +4,9 @@
 using DecoratorPattern;
 
 Console.WriteLine("------------------------- 装饰模式 -------------------------");
+// 装饰模式是一种结构型设计模式， 允许你通过将对象放入包含行为的特殊封装对象中来为原对象绑定新的行为。
 
 String str = "姓名\t年龄\n张三\t22\n李四\t26\n王五\t18";
-
 
 #region 加密装饰
 var encryption = new EncryptionDecorator(new FileDataSource("encryption.txt"));
